@@ -1,0 +1,121 @@
+body{
+    margin: 100px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.searchbutton {
+    font-size: 100 px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+       
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.subtitle {
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.header {
+    display: flex;
+    text-align: center;
+    align-items: right;
+    color: blue;
+    padding: 25 px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90%;
+    border-radius: 25px;
+    border: 1px solid gray;
+    align-items: center;
+    margin: 25px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.advanced-searchbar {
+    margin: 50px 40px;
+    font-family: Arial, Helvetica, sans-serif
+    padding-left: 15px;
+} 
+.advanced-searchbar label {
+    display: inline-block;
+    width: 16%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.advanced-searchbar .whitespace {
+    display: inline-block;
+    width: 50%;
+}
+.advanced-searchbar .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.advanced-searchbar .form-group label {
+    width: 16%;
+    font-size: 14px;
+  }
+.advanced-searchbar .form-group input[type=text] {
+    width: 49%;
+    padding: 2px 0;
+  }
+.advanced-searchbar .form-group .clarification {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+  }
+.advanced-searchbar .form-group .clarification .monospace {
+    font-family: monospace;
+  }
+.advanced-searchbar .form-group .right-align {
+    width: 50%;
+  }
+ 
+
+input[type=submit]:hover {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+      }
+input.blue-button {
+    background-color: blue;
+    color: white;
+    font-size: smaller;
+    max-width: 200px;
+    border-radius: 0px;
+    border: 1px solid #156bbd;
+    float: right;
+    padding: 10px 2px;
+    margin: 0;
+.appbar {
+      margin: 30px 10px;
+    }
+.appbar label {
+    color: red;
+    font-size: 20px;
+    margin: 50px 30px;
+    }
+      
+.separator-line {
+border-bottom: solid 1px #d6d6d6;
+    }
+      
+    
